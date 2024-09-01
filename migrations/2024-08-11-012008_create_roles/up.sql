@@ -1,0 +1,7 @@
+-- Your SQL goes here
+CREATE TABLE roles (
+    id SERIAL PRIMARY KEY,
+    code VARCHAR(255) NOT NULL UNIQUE,
+    name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW() NOT NULL
+)

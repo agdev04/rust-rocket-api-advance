@@ -1,0 +1,3 @@
+[global.databases]
+postgres={url="postgresql://postgres:"}
+redis={url="redis://default:"}
